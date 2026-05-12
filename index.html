@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rental Equipment Catalog</title>
+    <meta name="description" content="A lightweight catalog of rental equipment." />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div>
+        <h1>Available equipment</h1>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="toolbar" aria-label="Catalog controls">
+        <label class="search-label" for="search">Search equipment</label>
+        <input id="search" type="search" placeholder="Search name or description…" autocomplete="off" />
+
+      </section>
+
+      <button id="category-toggle" class="category-toggle" type="button" aria-expanded="false" aria-controls="category-tabs">
+        Categories
+      </button>
+      <nav id="category-tabs" class="tabs" aria-label="Equipment categories"></nav>
+
+      <section class="summary" aria-live="polite">
+        <span id="result-count">Loading catalog…</span>
+        <span class="muted">Rates shown: per day</span>
+      </section>
+
+      <section id="catalog" class="catalog" aria-label="Equipment catalog"></section>
+      <p id="empty-state" class="empty" hidden>No matching equipment found.</p>
+    </main>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>

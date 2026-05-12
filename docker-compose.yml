@@ -1,0 +1,11 @@
+services:
+  rental-list:
+    build: .
+    ports:
+      - "8888:8000"
+    environment:
+      INVENTORY_XLSM: /inventory/Rental-Database.xlsm
+    volumes:
+      - .:/app
+      - ${INVENTORY_XLSM:-./Rental-Database.xlsm}:/inventory/Rental-Database.xlsm:ro
+    command: python3 scripts/dev_server.py --host 0.0.0.0 --port 8000

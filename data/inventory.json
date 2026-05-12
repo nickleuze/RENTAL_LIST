@@ -1,0 +1,833 @@
+{
+  "source": "Rental-Database.xlsm",
+  "sheet": "Rental-Database",
+  "publicPricing": "VK (Netto)",
+  "itemCount": 90,
+  "categories": [
+    "Battery Power",
+    "Cables",
+    "Camera",
+    "Camera Acessories",
+    "Computers",
+    "Continous Lighting",
+    "Digi Accessories",
+    "Flash Lighting",
+    "Grip",
+    "Lighting Accessories",
+    "Misc and Accessories",
+    "Monitors",
+    "Textiles/Flags/Reflectors"
+  ],
+  "items": [
+    {
+      "sku": "COM_0001",
+      "quantity": 1,
+      "name": "M3 Max Macbook Pro",
+      "description": "",
+      "category": "Computers",
+      "unit": "Day(s)",
+      "price_net": 250
+    },
+    {
+      "sku": "COM_0002",
+      "quantity": 1,
+      "name": "M1 Max Macbook Pro",
+      "description": "",
+      "category": "Computers",
+      "unit": "Day(s)",
+      "price_net": 200
+    },
+    {
+      "sku": "ACC_0001",
+      "quantity": 1,
+      "name": "Calipso digiplate w/ accessories",
+      "description": "Hook, Legs, Shade, Adapter, Clamps, Caddy, Lsdigi, data cables, card readers, usb hub, mounting hardware, Peli 1535",
+      "category": "Digi Accessories",
+      "unit": "Day(s)",
+      "price_net": 100
+    },
+    {
+      "sku": "ACC_0002",
+      "quantity": 1,
+      "name": "iWorkcase",
+      "description": "",
+      "category": "Digi Accessories",
+      "unit": "Day(s)",
+      "price_net": 35
+    },
+    {
+      "sku": "MON_0001",
+      "quantity": 1,
+      "name": "12.9\" iPad Pro",
+      "description": "incl. 2x NPF battery, LSDigi Cage, strap, mounting hardware",
+      "category": "Monitors",
+      "unit": "Day(s)",
+      "price_net": 150
+    },
+    {
+      "sku": "MON_0002",
+      "quantity": 2,
+      "name": "EIZO CS2740",
+      "description": "with Tenba, 1x Cablesnake, Stand adapter, Hood",
+      "category": "Monitors",
+      "unit": "Day(s)",
+      "price_net": 180
+    },
+    {
+      "sku": "MON_0003",
+      "quantity": 1,
+      "name": "Client monitor package",
+      "description": "incl. Numpad for selects, robocup and keyboard tray",
+      "category": "Monitors",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "CAM_0001",
+      "quantity": 1,
+      "name": "Canon R5",
+      "description": "incl. Battery grip, EF-RF adapter, 4x Battery",
+      "category": "Camera",
+      "unit": "Day(s)",
+      "price_net": 150
+    },
+    {
+      "sku": "CAM_0002",
+      "quantity": 1,
+      "name": "Canon R6 MKIII",
+      "description": "incl. EF-RF adapter, 2x Battery",
+      "category": "Camera",
+      "unit": "Day(s)",
+      "price_net": 100
+    },
+    {
+      "sku": "CAM_0003",
+      "quantity": 1,
+      "name": "R6 Video Rig kit",
+      "description": "5\" Monitor, 2x HDMI, 15mm Rails, Baseplate, Batteryplate, 2x Vmount, ND Mattebox",
+      "category": "Camera",
+      "unit": "Day(s)",
+      "price_net": 100
+    },
+    {
+      "sku": "CAM_0004",
+      "quantity": 1,
+      "name": "Canon RF 70-200 2.8",
+      "description": "",
+      "category": "Camera",
+      "unit": "Day(s)",
+      "price_net": 50
+    },
+    {
+      "sku": "CAM_0005",
+      "quantity": 1,
+      "name": "Canon EF 24-70 2.8",
+      "description": "",
+      "category": "Camera",
+      "unit": "Day(s)",
+      "price_net": 30
+    },
+    {
+      "sku": "CAM_0006",
+      "quantity": 1,
+      "name": "Canon RF 50 1.2",
+      "description": "",
+      "category": "Camera",
+      "unit": "Day(s)",
+      "price_net": 50
+    },
+    {
+      "sku": "CAM_0007",
+      "quantity": 1,
+      "name": "Canon EF 100 2.8",
+      "description": "",
+      "category": "Camera",
+      "unit": "Day(s)",
+      "price_net": 20
+    },
+    {
+      "sku": "AKS_0001",
+      "quantity": 1,
+      "name": "Tilta MBT15 Mattebox",
+      "description": "incl. Adapter Rings",
+      "category": "Camera Acessories",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "CAB_0001",
+      "quantity": 2,
+      "name": "USBC Tether kit",
+      "description": "incl. 1x 5M tether cable,1x 10M tether cable, 1x 10M tether extension, tetherlocks, backup cables",
+      "category": "Cables",
+      "unit": "Day(s)",
+      "price_net": 40
+    },
+    {
+      "sku": "CAB_0002",
+      "quantity": 2,
+      "name": "USB Micro B Tether kit",
+      "description": "incl. 2x 5M tether cable, 1x 5M tether extension, tetherlocks",
+      "category": "Cables",
+      "unit": "Day(s)",
+      "price_net": 25
+    },
+    {
+      "sku": "GRP_0001",
+      "quantity": 1,
+      "name": "Gitzo tripod",
+      "description": "incl. roller base, level head, accessories",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 30
+    },
+    {
+      "sku": "GRP_0002",
+      "quantity": 1,
+      "name": "Manfrotto carbon with ball head",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 15
+    },
+    {
+      "sku": "GRP_0003",
+      "quantity": 1,
+      "name": "Manfrotto with 3way head",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 20
+    },
+    {
+      "sku": "GRP_0004",
+      "quantity": 2,
+      "name": "Rolling Monitor Stand",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "GRP_0005",
+      "quantity": 3,
+      "name": "Cstand 20\" Kit",
+      "description": "incl. 2x Griphead 1x Gobo arm",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 7.5
+    },
+    {
+      "sku": "GRP_0006",
+      "quantity": 1,
+      "name": "Cstand Turtle Base",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 5
+    },
+    {
+      "sku": "GRP_0007",
+      "quantity": 3,
+      "name": "Manfrotto Master Stand",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 5
+    },
+    {
+      "sku": "GRP_0008",
+      "quantity": 1,
+      "name": "Avenger Wind Up - Low Base",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 15
+    },
+    {
+      "sku": "GRP_0009",
+      "quantity": 1,
+      "name": "Avenger Junior Boom",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 15
+    },
+    {
+      "sku": "GRP_0010",
+      "quantity": 2,
+      "name": "Pumpkin Weight",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 5
+    },
+    {
+      "sku": "GRP_0011",
+      "quantity": 4,
+      "name": "E200 junior to baby spigot",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 1
+    },
+    {
+      "sku": "GRP_0012",
+      "quantity": 4,
+      "name": "D200 Grip Head",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 1.5
+    },
+    {
+      "sku": "GRP_0013",
+      "quantity": 4,
+      "name": "Super Clamp",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 2.5
+    },
+    {
+      "sku": "GRP_0014",
+      "quantity": 4,
+      "name": "A Clamp L",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 3
+    },
+    {
+      "sku": "GRP_0015",
+      "quantity": 4,
+      "name": "A Clamp M",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 1.5
+    },
+    {
+      "sku": "GRP_0016",
+      "quantity": 4,
+      "name": "A Clamp S",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 0.5
+    },
+    {
+      "sku": "GRP_0017",
+      "quantity": 1,
+      "name": "Cardellini Clamp",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 5
+    },
+    {
+      "sku": "GRP_0018",
+      "quantity": 2,
+      "name": "Sandbag Large",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 4
+    },
+    {
+      "sku": "GRP_0019",
+      "quantity": 2,
+      "name": "Sandbag Small",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 3
+    },
+    {
+      "sku": "GRP_0020",
+      "quantity": 2,
+      "name": "J Hook",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 2
+    },
+    {
+      "sku": "GRP_0021",
+      "quantity": 2,
+      "name": "Magic Arm",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 5
+    },
+    {
+      "sku": "GRP_0022",
+      "quantity": 4,
+      "name": "126 Stand on wheels",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "GRP_0023",
+      "quantity": 4,
+      "name": "E250 Spigot",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 1
+    },
+    {
+      "sku": "GRP_0024",
+      "quantity": 2,
+      "name": "Poly fork with baby pin",
+      "description": "",
+      "category": "Grip",
+      "unit": "Day(s)",
+      "price_net": 2
+    },
+    {
+      "sku": "TAF_0001",
+      "quantity": 1,
+      "name": "24x36 Flag",
+      "description": "",
+      "category": "Textiles/Flags/Reflectors",
+      "unit": "Day(s)",
+      "price_net": 5
+    },
+    {
+      "sku": "TAF_0002",
+      "quantity": 1,
+      "name": "40x40\" / 1x1m Ultrabounce Flag",
+      "description": "",
+      "category": "Textiles/Flags/Reflectors",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "MSC_0001",
+      "quantity": 1,
+      "name": "Elgato Streamdeck",
+      "description": "incl. caddy",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "MSC_0002",
+      "quantity": 1,
+      "name": "Tools",
+      "description": "",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "MSC_0003",
+      "quantity": 1,
+      "name": "Gaffer",
+      "description": "",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 5
+    },
+    {
+      "sku": "MSC_0004",
+      "quantity": 1,
+      "name": "Camera Hoop",
+      "description": "",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 5
+    },
+    {
+      "sku": "MSC_0005",
+      "quantity": 1,
+      "name": "Peli 1535",
+      "description": "",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 30
+    },
+    {
+      "sku": "MSC_0006",
+      "quantity": 1,
+      "name": "Peli 1607",
+      "description": "",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 30
+    },
+    {
+      "sku": "MSC_0007",
+      "quantity": 1,
+      "name": "Nanuk 935",
+      "description": "",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 20
+    },
+    {
+      "sku": "MSC_0008",
+      "quantity": 1,
+      "name": "Cable Pouches",
+      "description": "",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 5
+    },
+    {
+      "sku": "MSC_0009",
+      "quantity": 1,
+      "name": "Crdbag",
+      "description": "",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 15
+    },
+    {
+      "sku": "MSC_0010",
+      "quantity": 1,
+      "name": "Sekonic L858",
+      "description": "",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 25
+    },
+    {
+      "sku": "MSC_0011",
+      "quantity": 1,
+      "name": "Hollyland Pyros H",
+      "description": "incl. hdmi cables and 2x NPF",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 40
+    },
+    {
+      "sku": "MSC_0012",
+      "quantity": 1,
+      "name": "Studio Acessories",
+      "description": "incl. Robocup, Keyboard, Trackpad, i1 Calibrator",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 30
+    },
+    {
+      "sku": "MSC_0013",
+      "quantity": 1,
+      "name": "Brother Labelprinter",
+      "description": "",
+      "category": "Misc and Accessories",
+      "unit": "Day(s)",
+      "price_net": 5
+    },
+    {
+      "sku": "BAT_0001",
+      "quantity": 2,
+      "name": "Neewer Vmount 98wh",
+      "description": "",
+      "category": "Battery Power",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "BAT_0002",
+      "quantity": 4,
+      "name": "Anker Prime USBC Battery",
+      "description": "",
+      "category": "Battery Power",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "BAT_0003",
+      "quantity": 4,
+      "name": "Sony NPF 970",
+      "description": "",
+      "category": "Battery Power",
+      "unit": "Day(s)",
+      "price_net": 5
+    },
+    {
+      "sku": "BAT_0004",
+      "quantity": 1,
+      "name": "Ecoflow River Max",
+      "description": "512Wh Powerstation",
+      "category": "Battery Power",
+      "unit": "Day(s)",
+      "price_net": 25
+    },
+    {
+      "sku": "FLS_0001",
+      "quantity": 2,
+      "name": "Profoto B1",
+      "description": "incl. 2x Battery, Zoom Reflector, Charger",
+      "category": "Flash Lighting",
+      "unit": "Day(s)",
+      "price_net": 50
+    },
+    {
+      "sku": "FLS_0002",
+      "quantity": 1,
+      "name": "Profoto Pro 7a 2400",
+      "description": "",
+      "category": "Flash Lighting",
+      "unit": "Day(s)",
+      "price_net": 50
+    },
+    {
+      "sku": "FLS_0003",
+      "quantity": 1,
+      "name": "Profoto Pro 7s 2400",
+      "description": "",
+      "category": "Flash Lighting",
+      "unit": "Day(s)",
+      "price_net": 30
+    },
+    {
+      "sku": "FLS_0004",
+      "quantity": 1,
+      "name": "Profoto ProRing",
+      "description": "",
+      "category": "Flash Lighting",
+      "unit": "Day(s)",
+      "price_net": 35
+    },
+    {
+      "sku": "FLS_0005",
+      "quantity": 2,
+      "name": "Profoto Head Extension 5m",
+      "description": "",
+      "category": "Flash Lighting",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "FLS_0006",
+      "quantity": 2,
+      "name": "Profoto Pro7 Head",
+      "description": "",
+      "category": "Flash Lighting",
+      "unit": "Day(s)",
+      "price_net": 15
+    },
+    {
+      "sku": "FLS_0007",
+      "quantity": 2,
+      "name": "Profoto A1 TTL-C",
+      "description": "incl. 2x Battery, 1x Charger, Lightshaper",
+      "category": "Flash Lighting",
+      "unit": "Day(s)",
+      "price_net": 30
+    },
+    {
+      "sku": "FLS_0008",
+      "quantity": 1,
+      "name": "Profoto Air Remote TTL-C",
+      "description": "",
+      "category": "Flash Lighting",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "FLS_0009",
+      "quantity": 2,
+      "name": "Profoto Air Sync",
+      "description": "",
+      "category": "Flash Lighting",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "FLS_0010",
+      "quantity": 1,
+      "name": "Profoto Air Remote",
+      "description": "",
+      "category": "Flash Lighting",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "MOD_0001",
+      "quantity": 1,
+      "name": "Profoto Pro Globe",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 15
+    },
+    {
+      "sku": "MOD_0002",
+      "quantity": 1,
+      "name": "Profoto Softlighter",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 20
+    },
+    {
+      "sku": "MOD_0003",
+      "quantity": 1,
+      "name": "Profoto Magnum Reflector",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "MOD_0004",
+      "quantity": 4,
+      "name": "Profoto Zoom Reflector",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 2
+    },
+    {
+      "sku": "MOD_0005",
+      "quantity": 2,
+      "name": "Profoto Grid Kit for Zoom Reflector",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 15
+    },
+    {
+      "sku": "MOD_0006",
+      "quantity": 1,
+      "name": "Profoto Snoot for Zoom Reflector",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "MOD_0007",
+      "quantity": 1,
+      "name": "Elinchrom Octalite 190cm for Profoto",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 40
+    },
+    {
+      "sku": "MOD_0008",
+      "quantity": 1,
+      "name": "Profoto Fresnel Small",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 25
+    },
+    {
+      "sku": "MOD_0009",
+      "quantity": 1,
+      "name": "Elinchrom Zoom Spot for Profoto",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 35
+    },
+    {
+      "sku": "MOD_0010",
+      "quantity": 1,
+      "name": "Elinchrom Rotalux Octa 150cm for Profoto",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 35
+    },
+    {
+      "sku": "MOD_0011",
+      "quantity": 2,
+      "name": "Elinchrom Rotalux Stripbox for Profoto",
+      "description": "incl. Grid",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 25
+    },
+    {
+      "sku": "MOD_0012",
+      "quantity": 1,
+      "name": "Chimera Softbox 60x80cm for Profoto",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 15
+    },
+    {
+      "sku": "MOD_0013",
+      "quantity": 1,
+      "name": "Chimera Softbox 90x120cm for Profoto",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 20
+    },
+    {
+      "sku": "MOD_0014",
+      "quantity": 2,
+      "name": "White Umbrella Shallow M",
+      "description": "",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "MOD_0015",
+      "quantity": 1,
+      "name": "White Umbrella Deep L",
+      "description": "incl. Diffuser",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 10
+    },
+    {
+      "sku": "MOD_0016",
+      "quantity": 1,
+      "name": "Aputure Quickdome 90",
+      "description": "incl. Diffuser and Grid",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 15
+    },
+    {
+      "sku": "MOD_0017",
+      "quantity": 1,
+      "name": "Aputure CF7 Fresnel",
+      "description": "incl. Barn Doors",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 15
+    },
+    {
+      "sku": "MOD_0018",
+      "quantity": 1,
+      "name": "Profoto 1,3x1,3 / XXS Softbox",
+      "description": "incl. Grid and Speedring",
+      "category": "Lighting Accessories",
+      "unit": "Day(s)",
+      "price_net": 20
+    },
+    {
+      "sku": "CON_0001",
+      "quantity": 2,
+      "name": "Arri M8 HMI",
+      "description": "incl. Highspeed Ballast",
+      "category": "Continous Lighting",
+      "unit": "Day(s)",
+      "price_net": 100
+    },
+    {
+      "sku": "CON_0002",
+      "quantity": 1,
+      "name": "Aputure Storm 400X",
+      "description": "incl. Ballast, Reflector, Cables, Case",
+      "category": "Continous Lighting",
+      "unit": "Day(s)",
+      "price_net": 100
+    }
+  ]
+}

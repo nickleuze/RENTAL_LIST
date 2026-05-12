@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.*
+*.log
+node_modules/
+dist/
+.pi/
+.planning/
+
+# Keep the private/source workbook out of GitHub Pages and public repos.
+Rental-Database.xlsm
